@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "OfflineSkinApp",
+    "slug": "OfflineSkinApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": ["ios", "android"],
+    "android": {
+      "package": "com.ositadev.offlineskinapp",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "RECORD_AUDIO"  // optional if later you add voice notes
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "90bc9325-fb8c-4a01-b2ad-0a26adf35144"
+      }
+    }
+  }
+}
